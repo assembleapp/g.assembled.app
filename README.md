@@ -1,17 +1,24 @@
-# graysonwright.com
+# README
 
-This repo contains the code for my personal website, http://graysonwright.com.
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-## Starting a local server
+Things you may want to cover:
 
-With Docker:
+* Ruby version
 
-```
-./bin/docker-compose up
-```
+* System dependencies
 
-## Deploying
+* Configuration
 
-The website is hosted on Heroku,
-and is set up to automatically redeploy any changes
-to the master branch on GitHub.
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...

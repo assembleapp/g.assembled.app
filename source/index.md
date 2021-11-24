@@ -25,6 +25,6 @@ You can also find me on [github] and [twitter].
 [TempoRun]: http://temporunapp.com
 [Carbon Cash]: http://carboncash.co
 
-[email]: mailto:wright.grayson@gmail.com
-[github]: https://github.com/graysonwright
-[twitter]: http://twitter.com/grayson_wright
+[email]: mailto:g@assembled.app
+[github]: https://github.com/assembleapp
+[twitter]: http://twitter.com/assemblecompany

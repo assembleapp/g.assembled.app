@@ -4,13 +4,18 @@ require "bourbon"
 require "neat"
 require "front_matter_parser"
 require_relative "lib/collection"
+require 'redcarpet'
+require 'erb'
 
 set :bind, "0.0.0.0"
 
 set views: File.expand_path("../source", __FILE__)
 
 get "/" do
-  markdown File.read("source/index.md"), layout_engine: :erb, layout: :"layouts/layout"
+  rendered = Redcarpet::Markdown.
+    new(Redcarpet::Render::HTML, autolink: true, tables: true).
+    render(File.read("source/index.md"))
+  haml rendered, layout_engine: :erb, layout: :"layouts/layout"
 end
 
 get "/stylesheets/all.css" do
