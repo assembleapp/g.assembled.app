@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby "2.3.1"
+ruby "3.0.2"
 
 gem "bourbon"
 gem "front_matter_parser"
