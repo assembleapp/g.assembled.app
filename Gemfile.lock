@@ -23,7 +23,6 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    puma (3.6.0)
     rack (1.6.4)
     rack-contrib (1.4.0)
       git-version-bump (~> 0.15)
@@ -63,6 +62,7 @@ GEM
     slop (3.6.0)
     thor (0.19.1)
     tilt (2.0.5)
+    webrick (1.7.0)
 
 PLATFORMS
   ruby
@@ -73,15 +73,15 @@ DEPENDENCIES
   neat
   nokogiri
   pry
-  puma
   rack-contrib
   redcarpet
   rspec
   sinatra
   sinatra-reloader
+  webrick
 
 RUBY VERSION
-   ruby 2.3.1p112
+   ruby 3.0.2p107
 
 BUNDLED WITH
    2.2.31
