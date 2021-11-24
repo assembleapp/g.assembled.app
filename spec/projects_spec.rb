@@ -11,7 +11,7 @@ describe "Projects index" do
     before { get "/projects" }
     subject { page }
 
-    it { should have_title("Projects | Grayson Wright") }
+    it { should have_title("Projects | Grace Youngblood") }
     it { should have_tag("h1", "Projects") }
 
     it { should have_tag("h2", "Administrate") }

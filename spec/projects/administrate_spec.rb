@@ -11,7 +11,7 @@ describe "Administrate page" do
     before { get "/projects/administrate" }
     subject { page }
 
-    it { should have_title("Administrate | Grayson Wright") }
+    it { should have_title("Administrate | Grace Youngblood") }
     it { should have_tag("h1", "Administrate") }
 
     it { should match("I've been the lead developer on Administrate") }

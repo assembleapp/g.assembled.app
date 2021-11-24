@@ -11,7 +11,7 @@ describe "Sketches index" do
     before { get "/sketches" }
     subject { page }
 
-    it { should have_title("Sketches | Grayson Wright") }
+    it { should have_title("Sketches | Grace Youngblood") }
     it { should have_link("Golden Gate", "/sketches/2014/09/28/golden-gate.html") }
     it { should have_link("Projects", "/projects") }
   end

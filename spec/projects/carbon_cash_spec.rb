@@ -11,7 +11,7 @@ describe "Carbon Cash page" do
     before { get "/projects/carbon_cash" }
     subject { page }
 
-    it { should have_title("Carbon Cash | Grayson Wright") }
+    it { should have_title("Carbon Cash | Grace Youngblood") }
     it { should have_tag("h1", "Carbon Cash") }
 
     it { should match("Carbon Cash is an environmental startup") }

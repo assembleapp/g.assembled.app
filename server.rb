@@ -57,7 +57,7 @@ get %r{/sketches/(\d{4})/(\d{2})/(\d{2})/(.+.html)$} do |year, month, day, title
 end
 
 def current_page
-  title = "Grayson Wright"
+  title = "Grace Youngblood"
 
   if @page_title
     title = "#{@page_title} | #{title}"

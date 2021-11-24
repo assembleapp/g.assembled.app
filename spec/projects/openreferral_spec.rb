@@ -11,7 +11,7 @@ describe "OpenReferral page" do
     before { get "/projects/openreferral" }
     subject { page }
 
-    pending { should have_title("OpenReferral | Grayson Wright") }
+    pending { should have_title("OpenReferral | Grace Youngblood") }
     it { should have_tag("h1", "San Francisco OpenReferral") }
 
     it { should match("Every Wednesday night") }

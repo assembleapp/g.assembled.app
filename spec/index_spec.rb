@@ -11,7 +11,7 @@ describe "Index" do
     before { get "/" }
     subject { page }
 
-    it { should have_title("Grayson Wright") }
+    it { should have_title("Grace Youngblood") }
     it { should match("I'm a developer and designer") }
     it { should have_link("Sketches", "/sketches") }
     it { should have_link("Projects", "/projects") }
