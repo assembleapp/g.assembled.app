@@ -2,6 +2,7 @@ FROM ruby:2.3.1
 
 WORKDIR /app
 ADD Gemfile* /app/
+RUN gem uninstall bundler
 RUN gem install bundler -v 2.2.32
 RUN bundle install
 ADD . /app
