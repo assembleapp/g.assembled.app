@@ -11,13 +11,6 @@ set :bind, "0.0.0.0"
 
 set views: File.expand_path("../source", __FILE__)
 
-get "/" do
-  rendered = Redcarpet::Markdown.
-    new(Redcarpet::Render::HTML, autolink: true, tables: true).
-    render(File.read("source/index.md"))
-  haml rendered, layout_engine: :erb, layout: :"layouts/layout"
-end
-
 get "/stylesheets/all.css" do
   scss :"stylesheets/all"
 end
