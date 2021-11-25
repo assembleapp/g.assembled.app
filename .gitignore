@@ -3,5 +3,8 @@
 .sass-cache
 /build
 
+/log
 /node_modules
 /tmp
+/db/*.sqlite3
+/public/packs

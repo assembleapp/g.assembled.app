@@ -5,6 +5,6 @@ class PagesController < ApplicationController
     rendered = Redcarpet::Markdown.
       new(Redcarpet::Render::HTML, autolink: true, tables: true).
       render(File.read("source/index.md"))
-    render html: rendered, layout: :"layouts/layout"
+    render html: rendered, layout: true
   end
 end
